@@ -1,0 +1,112 @@
+/* style.css */
+
+body {
+	font-family: Arial, sans-serif;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+    background-color: black;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+    color: aqua;
+}
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+ h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: aqua;
+}
+h6{
+    color: aquamarine;
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+ p{
+    color: aliceblue;
+    font-size:1rem;
+    font-weight: 100;
+}
+a{
+	text-decoration: none;
+	color: aquamarine;
+	font-weight: 800;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+    color: aqua;
+}
+#photo{
+	height: 400px;
+	width: 300px;
+	border-radius: 40px;
+	float: right;
+}
+main {
+	margin-top: 30px;
+}
+img {
+	height: 400px;
+	width: 300px;
+	align-items: center;
+}
+h3
+{
+	color: aliceblue;
+}
+
+section {
+	margin-bottom: 30px;
+}
+#certifications .certification-slider {
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  #certifications .certification-slider .slick-slide {
+	text-align: center;
+	padding: 20px;
+	background: #f4f4f4;
+  }
+  
+  #certifications .certification-slider .slick-slide img {
+	width: 200px;
+	height: 50px;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+  }
+  
+  #certifications .certification-slider .slick-prev:before,
+  #certifications .certification-slider .slick-next:before {
+	color: black;
+  }
+footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 12px;
+}
+
+@media (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+	}
+
+	nav ul li {
+		text-align: center;
+	}
+}
