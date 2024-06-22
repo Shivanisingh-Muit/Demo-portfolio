@@ -1,2 +1,3 @@
-# BI-portfolio
-Hello, this is my Bharat intern internship repository where every task done at Bharat intern will be added. (Portfolio-shivani singh))
+# Demo-portfolio
+Hello, this is my Demo portfolio repository showing my noraml HTML/CSS/JS skills to build a proper responsive portfolio without any frameworks added.
+Thank you for visiting.
